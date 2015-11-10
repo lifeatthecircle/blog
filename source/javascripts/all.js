@@ -1,1 +1,8 @@
-//= require_tree .
+//= require 'jquery'
+//= require 'bootstrap.min'
+//= require 'jquery.easing.min'
+//= require 'classie'
+//= require 'cbpAnimatedHeader'
+//= require 'jqBootstrapValidation'
+//= require 'contact_me'
+//= require 'agency'

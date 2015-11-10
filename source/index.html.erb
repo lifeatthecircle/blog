@@ -1,10 +1,16 @@
 ---
-title: Welcome to Middleman
+title: Home
+header_image: "/images/home/header-bg.jpg"
 ---
 
-<div class="welcome">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<!-- Edit the recent_posts section in src/partials/_recent_posts.html.erb -->
+<%= partial("recent_posts") %>
+
+<!-- Edit the categories section in src/partials/_categories.html.erb -->
+<%= partial("categories") %>
+
+<!-- Edit the about section in src/partials/_about.html.erb -->
+<%= partial("about") %>
+
+<!-- Edit the contact section in src/partials/_contact.html.erb -->
+<%= partial("contact") %>

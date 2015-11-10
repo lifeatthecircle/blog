@@ -1,0 +1,17 @@
+<section class="bg-light-gray post-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading"><%= category %></h2>
+        <h3 class="text-muted"></h3>
+      </div>
+    </div>
+    <% page_articles.each_with_index do |post, i| %>
+      <div class="row">
+        <div class="col-lg-12">
+          <%= partial(:post, :locals => { post: post }) %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</section>

@@ -1,0 +1,8 @@
+<article class="post-content cf">
+  <h2 class="section-heading"><%= link_to post.title, post %></h2>
+  <h3 class="text-muted">Posted on <%= post_date(post) %></h3>
+  <p>
+    <%= post.summary %>
+  </p>
+  <a href="<%= post.url %>" class="more-link">Read more</a>
+</article>
